@@ -1,0 +1,83 @@
+html, body{
+  height: 100%;
+  font-family: Ubuntu;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #17212B;
+  flex-direction: column;
+
+}
+
+#login{
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  margin-bottom: 10px;
+}
+
+.main {
+  position: relative;
+}
+
+.main__title-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.main__subtitle {
+  text-align: center;
+  width: 330px;
+  color: #7F91A4;
+  font-size: 16px;
+  margin-bottom: 37px;
+}
+
+.main__img {
+  display:block;
+  margin: auto;
+}
+
+#loginButton {
+  background: #5188C1;
+  border-radius: 5px;
+  width: 132px;
+  height: 43px;
+  margin: auto;
+  color: #FFFFFF;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.input {
+  width: 288px;
+  background: #17212B;
+  border: none;
+  color: #858F98;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  margin: auto;
+  margin-bottom: 56px;
+  outline: none;
+}
+
+#login::before {
+  content: "";
+  width: 298px;
+  height: 1px;
+  background: #465461;
+  position: absolute;
+  bottom: 88px;
+}
+
