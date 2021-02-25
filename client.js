@@ -1,5 +1,5 @@
 // const WebSocket = require('ws');
-const ws = new WebSocket('ws://localhost:5500');
+const ws = new WebSocket('ws://localhost:5501');
 
 const btn = document.getElementById('loginButton');
 
